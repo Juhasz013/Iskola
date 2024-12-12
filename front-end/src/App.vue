@@ -1,6 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 </script>
+<script>
+export default {
+  data() {
+    return {
+      url:'http://localhost:8000/api'
+    }
+  },
+}
+</script>
 
 <template>
   <div>
@@ -13,7 +22,7 @@ import { RouterLink, RouterView } from "vue-router";
         </nav>
       </div>
     </header>
-    <RouterView />
+    <RouterView :url="url" />
   </div>
 </template>
 
