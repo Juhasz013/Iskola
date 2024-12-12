@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="m-3">
         <nav>
           <RouterLink to="/">Home</RouterLink> |
-          <RouterLink to="/kartyak">Kartyak</RouterLink>
+          <RouterLink to="/kartyak">Kártyak</RouterLink>
         </nav>
       </div>
     </header>
